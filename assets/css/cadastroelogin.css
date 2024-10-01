@@ -1,0 +1,30 @@
+
+.planodefundo {
+    background-image: 
+        url("../img/fotodefundo.jpg"), 
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)); /* Gradiente preto com alta opacidade */
+    background-blend-mode: darken; /* Escurece a imagem com o gradiente */
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+.container-logo
+{
+    justify-content: left;
+    align-items: flex-start;
+    display: flex;
+    width: 150px;
+    height: 129px;
+    left: 174px;
+}
+
+.imagem-logo
+{
+    display: flex;
+    width: 150px;
+    height: 100%;
+    left: 174px;
+    
+}
