@@ -5,20 +5,19 @@
     justify-content: center;
     flex-direction: column;
     box-sizing: border-box;
-      overflow: hidden;
-      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
 
 }
 
 .container-login
 {
     display: flex;
-    justify-content: crente;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     border: 1px 0px 0px 0px;
     width: 100%;
- 
 
 }
 
@@ -27,6 +26,9 @@
     color: white;
     margin-bottom: 70px;
     margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -36,9 +38,11 @@
     justify-content:flex-start;
     align-items: center;
     flex-direction: column;
-    width: 414px;
+    width: 100%;
+    max-width: 414px;
     height: 517px;
- 
+    background-color: rgba(186, 183, 183, 0.5)
+    
 }
 
 .container-titulo-login
@@ -49,88 +53,106 @@
     padding-bottom: 10px;
     color: aliceblue;
     width: 100%;
-    height: 7%;
-    
+    height: 1%;
+    margin-bottom: 20px;
 }
 
 .titulo-login 
 {
-    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-email-e-senha-login-formulario
 {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     width: 100%;
     flex-direction: column;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 20px
     
 }
 
-.container-login-email
+.container-login-email, .container-login-senha
 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 354px;
     height: 49px;
-    width: 354px;
+    max-width: 354px;
+    width: 90%;
     height: 49px;
     border-radius: 5px 0px 0px 0px;
     border: 1px 0px 0px 0px;
     margin-bottom: 20px;
     background-color:  #BAB7B7;
     opacity: 80%;
+    padding-left: 7px;
 }
 
-.container-login-email::placeholder 
+.container-login-email button, .container-login-senha button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.container-login-email::placeholder, .container-login-senha::placeholder
 {
     color: gray;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container-login-senha
+
+.container-botao-login
 {
+    width: 354px;
+    height: 60px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 354px;
     height: 49px;
-    width: 354px;
+    max-width: 354px;
+    width: 90%;
     height: 49px;
-    border-radius: 5px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
-    background-color:  #BAB7B7;
-    opacity: 80%;
-}
-
-.container-login-senha::placeholder 
-{
-    color: gray;
-    font-weight: 700;
-}
-
-.container-botao-login
-{
-    width: 354px;
-    height: 49px;
-    border-radius: 5px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
-
+    flex-direction: column;
 }
 
 
 .botao-logar
 {
     width: 354px;
-    height: 49px;
+    height: 60px;
     top: 613px;
     border-radius: 5px 0px 0px 0px;
     border: 1px 0px 0px 0px;
     background-color:  #E3C72DCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 
+}
 
+.botao-login-cadastre-se
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none; /* Remove o fundo */
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding-top: 10px;
+    
 }

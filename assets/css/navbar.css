@@ -1,0 +1,67 @@
+.inicio-da-header
+{
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 91px;
+}
+
+.container-navbar
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%; 
+    height: auto;
+}
+
+.container-itens-navbar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagem-logo-navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 174px;
+    margin-left: 0px;
+    max-width: 150px; /* Limite máximo, se necessário */
+    height: auto;
+    width: auto;
+}
+/*
+.icone-eject
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 29px;
+    height: auto;
+    margin-center: 160px;
+    width: auto;
+}*/
+
+.container-itens-navbar li
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-itens-navbar a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 0px;
+    padding-right: 30px;
+}

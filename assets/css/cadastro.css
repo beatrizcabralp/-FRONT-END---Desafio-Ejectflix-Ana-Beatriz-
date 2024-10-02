@@ -1,23 +1,21 @@
 #cadastro
 {
     display: flex;
-    border: 1px 0px 0px 0px solid red;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     box-sizing: border-box;
-      overflow: hidden;
-      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
 
 }
 
 .container-cadastro
 {
     display: flex;
-    justify-content: crente;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid pink;
     border: 1px 0px 0px 0px;
     width: 100%;
 
@@ -26,17 +24,25 @@
 .frase-bemvindo
 {
     color: white;
+    margin-bottom: 70px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .formulario-container-cadastro
 {
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
     align-items: center;
     flex-direction: column;
-    border: 1px solid green;
-    width: 414px;
+    width: 100%;
+    max-width: 414px;
     height: 517px;
+    background-color: rgba(186, 183, 183, 0.5)
+    
 }
 
 .container-titulo-cadastro
@@ -46,72 +52,64 @@
     align-items: center;
     padding-bottom: 10px;
     color: aliceblue;
-    border: 1px solid red;
     width: 100%;
-    height: 7%;
-    
+    height: 1%;
+    margin-bottom: 20px;
 }
 
 .titulo-cadastro 
 {
-    margin-right: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-email-e-senha-cadastro-formulario
 {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    border: 1px solid blue;
     flex-direction: column;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    margin-bottom: 40px;
+    padding-top: 20px
     
 }
 
-.container-cadastro-email
+.container-cadastro-email, .container-cadastro-senha
 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 354px;
     height: 49px;
-    width: 354px;
+    max-width: 354px;
+    width: 90%;
     height: 49px;
     border-radius: 5px 0px 0px 0px;
     border: 1px 0px 0px 0px;
     margin-bottom: 20px;
     background-color:  #BAB7B7;
     opacity: 80%;
+    padding-left: 7px;
 }
 
-.container-cadastro-email::placeholder 
-{
-    color: gray;
-    font-weight: 700;
-}
-
-.container-cadastro-senha
+.container-cadastro-email button, .container-cadastro-senha button
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 354px;
-    height: 49px;
-    width: 354px;
-    height: 49px;
-    border-radius: 5px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
-    background-color:  #BAB7B7;
-    opacity: 80%;
 }
 
-.container-cadastro-senha::placeholder 
+.container-cadastro-email::placeholder, .container-cadastro-senha::placeholder
 {
     color: gray;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+  
 }
+
 
 .container-botao-cadastro
 {
@@ -119,11 +117,19 @@
     height: 49px;
     border-radius: 5px 0px 0px 0px;
     border: 1px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 354px;
+    height: 49px;
+    max-width: 354px;
+    width: 90%;
+    height: 49px;
 
 }
 
 
-.botao-logar
+.botao-cadastro
 {
     width: 354px;
     height: 49px;
@@ -131,6 +137,9 @@
     border-radius: 5px 0px 0px 0px;
     border: 1px 0px 0px 0px;
     background-color:  #E3C72DCC;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 
 }
