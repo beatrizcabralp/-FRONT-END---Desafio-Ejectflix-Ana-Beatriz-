@@ -1,0 +1,100 @@
+.container-carrossel
+{
+    width: 100%;
+}
+.container-carrossel h2
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.container-itens-carrossel
+{
+    position: relative;
+}
+.container-itens-carrossel .slide-button {
+    position: absolute;
+    top: 50%;
+    height: 50px; 
+    width: 50px; 
+    outline: none; 
+    background: none; 
+    font-size: 2.2rem; 
+    cursor: pointer; 
+    border: none; 
+    transform: translateY(-50%); 
+    color: #ccc; /* Cor do ícone */
+    z-index: 10; /* Certifique-se de que o botão esteja acima de outros elementos */
+}
+
+.container-itens-carrossel .slide-button#prev-slide {
+    left: 10px; /* Ajuste a distância do lado esquerdo */
+}
+
+.container-itens-carrossel .slide-button#next-slide {
+    right: 10px; /* Ajuste a distância do lado direito */
+}
+
+.container-itens-carrossel .listaDeImagensDoCarrossel {
+    display: flex; /* Troca para flex para alinhar horizontalmente */
+    gap: 18px; /* Espaçamento entre as imagens */
+    margin-bottom: 30px;
+    overflow-x: auto; /* Permite a rolagem horizontal */
+    scrollbar-width: none; /* Remove a barra de rolagem padrão */
+}
+
+.container-itens-carrossel .listaDeImagensDoCarrossel::-webkit-scrollbar {
+    display: none; /* Remove a barra de rolagem no Webkit */
+}
+
+.container-itens-carrossel .listaDeImagensDoCarrossel .filme-imagem {
+    width: 220px; /* Largura da imagem */
+    height: 350px; /* Altura da imagem */
+    object-fit: cover; /* Cobre a área do contêiner */
+}
+
+.container .slider-scrollbar
+{
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.slider-scrollbar .scrollbar-track
+{
+   height: 2px;
+   width: 100%;
+   background: #ccc;
+   position: relative;
+   border-radius: 4px;
+}
+.slider-scrollbar:hover .scrollbar-track
+{
+   height: 4px;
+}
+.slider-scrollbar .scrollbar-thumb
+{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: #000;
+    border-radius: inherit;
+    cursor: grab;
+}
+.slider-scrollbar .scrollbar-thumb:active
+{
+   cursor: grabbing;
+   width: 8px;
+   top: -2px;
+}
+.slider-scrollbar .scrollbar-thumb::after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
