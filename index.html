@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="../assets/css/index.css">
         <link rel="stylesheet" href="../assets/css/footer.css">
         <link rel="stylesheet" href="../assets/css/navbar.css">
+        <link rel="stylesheet" href="../assets/css/modal.css">
         <link rel="stylesheet" href="../assets/css/cadastroelogin.css">
 
 
@@ -45,11 +46,33 @@
 
         <section id="listaFilmes">
             <div class="secao-filme">
-                <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
-                 <img src="https://img.elo7.com.br/product/zoom/2692755/poster-o-senhor-dos-aneis-a-sociedade-do-anel-lo05-90x60-cm-geek.jpg" alt="" class="filme-imagem">
+                 <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                 <img src="https://img.elo7.com.br/product/zoom/2692755/poster-o-senhor-dos-aneis-a-sociedade-do-anel-lo05-90x60-cm-geek.jpg" alt="" onclick="openModal()" class="filme-imagem">
                  <p class="filme-titulo">Senhor dos anéis: A sociedade do anel, 2001.</p>
                  <ion-icon name="search-outline"></ion-icon>
-            </div>
+                 <div class="action-modal-mask" id="modalImage">
+                      <div class="action-modal">
+                              <div class="action-modal--header">
+                                   <span class="material-symbols-outlined" onclick="closeModal()">
+                                        close
+                                    </span>
+                               </div>
+                           <div class="action-modal--content">
+                                  <div class="content--description">
+                                        <p>olá mundo</p>
+                                  </div>
+                               <div class="content--form">
+                                   <div class="form--input-row">
+                                       <div class="input-field">
+                                            <p class="input-field-titulo"><strong>Nome Completo</strong></p>
+                                            <label>Nome completo</label>
+                                       </div>
+                                   </div>
+                               </div>
+                            </div>
+                       </div>
+                   </div>   
+             </div>
             <div class="secao-filme">
                 <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
                  <img src="https://img.elo7.com.br/product/zoom/26927C9/poster-o-senhor-dos-aneis-as-duas-torres-lo01-tam-90x60-cm-presente-geek.jpg" alt="" class="filme-imagem">
@@ -109,6 +132,8 @@
         <div class="container-itens-footer"><p>Made by Luiza Barbosa | Letícia Cibele</p></div>
 
     </footer>
+    
+    <script src="assets/js/modal.js"></script>
 
 
 </body>
