@@ -2,12 +2,25 @@
 {
     width: 100%;
 }
+
+.titulo-do-genero-do-filme
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 25px;
+}
+
 .container-carrossel h2
 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 32px;
-    color: #FFFFFF;
-    display: flex;
+    color: #000;
+    font-weight: 600;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    
 }
 
 .container-itens-carrossel
@@ -29,12 +42,84 @@
     z-index: 10; /* Certifique-se de que o botão esteja acima de outros elementos */
 }
 
-.container-itens-carrossel .slide-button#prev-slide {
+.container-itens-carrossel .slide-button#prev-slide-1 {
     left: 10px; /* Ajuste a distância do lado esquerdo */
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    opacity: 40%;
 }
 
-.container-itens-carrossel .slide-button#next-slide {
+.container-itens-carrossel .slide-button#next-slide-1 {
     right: 10px; /* Ajuste a distância do lado direito */
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    opacity: 40%;
+}
+
+.container-itens-carrossel .slide-button#prev-slide-2 {
+    left: 10px; /* Ajuste a distância do lado esquerdo */
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    opacity: 40%;
+}
+
+.container-itens-carrossel .slide-button#next-slide-2 {
+    right: 10px; /* Ajuste a distância do lado direito */
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    opacity: 40%;
+}
+
+.container-itens-carrossel .slide-button#prev-slide-3 {
+    left: 10px; /* Ajuste a distância do lado esquerdo */
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    opacity: 40%;
+}
+
+.container-itens-carrossel .slide-button#next-slide-3 {
+    right: 10px; /* Ajuste a distância do lado direito */
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    opacity: 40%;
+}
+
+.container-itens-carrossel .slide-button#prev-slide-4 {
+    left: 10px; /* Ajuste a distância do lado esquerdo */
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    opacity: 40%;
+}
+
+.container-itens-carrossel .slide-button#next-slide-4 {
+    right: 10px; /* Ajuste a distância do lado direito */
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    opacity: 40%;
+}
+
+.container-itens-carrossel .slide-button#prev-slide-5 {
+    left: 10px; /* Ajuste a distância do lado esquerdo */
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    opacity: 40%;
+}
+
+.container-itens-carrossel .slide-button#next-slide-5 {
+    right: 10px; /* Ajuste a distância do lado direito */
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    opacity: 40%;
 }
 
 .container-itens-carrossel .listaDeImagensDoCarrossel {
