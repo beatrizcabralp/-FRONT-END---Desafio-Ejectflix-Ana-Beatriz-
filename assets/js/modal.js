@@ -1,9 +1,9 @@
-const openModal = () => {
-    const modal = document.getElementById("modalImage");
+const openModal = (id) => {
+    const modal = document.getElementById(id);
     modal.style.display = "flex";
-  }
-  
-  const closeModal = () => {
-    const modal = document.getElementById("modalImage");
+}
+
+const closeModal = (id) => {
+    const modal = document.getElementById(id);
     modal.style.display = "none";
-  }
+}

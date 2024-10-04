@@ -1,4 +1,4 @@
-.action-modal-mask {
+.container-modal {
     display: none;
     
     position: fixed;
@@ -8,7 +8,7 @@
     width: 100vw;
     height: 100vh;
     
-    background-color: rgb( 0 0 0 / 35%);
+    background-color: rgba(193, 177, 177, 0.35);
     
     justify-content: center;
     align-items: center;
@@ -16,30 +16,105 @@
     z-index: 1000;
   }
   
-  .action-modal {
-    background-color: white;
-    
+  .container-modal-itens {
+    background-color: rgb(45, 44, 44, 0.9);
+    color: white;
     min-width: 400px;
     max-width: 1024px;
     width: 100%;
-  
+    border: 1px solid green;
     height: fit-content;
-  
     padding: 20px 50px 50px;
   }
+
+  .container-modal-itens-especificos
+  {
+    display: flex;
+    justify-content: center;
+    align-items:self-start;
+     border: 1px solid blue;
+  }
+
+  .container-modal-itens-especificos-descricao
+  {
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   
-  .action-modal > .action-modal--header {
+  .container-modal-itens > .container-modal-itens-header {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 20px;
+    cursor: pointer;
   }
-  
-  .content--form {
+
+  .container-modal-itens-especificos-informacoes > .itens-especificos-informacoes {
     display: flex;
-    flex-direction: column;
     gap: 20px;
   }
 
+  .itens-especificos-informacoes > .informacoes-nome-e-categoria {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 48px;
+  }
+
+
+  .itens-label
+  {
+    font-size: 14px;
+  }
+
+  .informacoes-nome-e-categoria-titulo, .informacoes-nome-e-categoria-ano
+  {
+    font-weight: 900;
+    text-wrap: nowrap;
+    width: 72px;
+    height: 24px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-align: left;
+  }
+
+  .itens-especificos-informacoes
+  {
+    border: 1px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+  }
+  
+  .container-modal-itens-especificos-informacoes {
+    display: flex;
+    gap: 20px;
+    border: 1px solid red;
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    max-width: 50%;
+    flex-direction: column;
+  }
+
+  .informacoes-nome-e-categoria
+  {
+    margin-bottom: 90px;
+  }
+
+  .input-field-titulo-2
+  {
+    margin-top: 40px;
+  }
+
+ /*
   #content-text
   {
     margin-top: -20px;
@@ -52,22 +127,10 @@
 
   }
   
-  .content--form > .form--input-row {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .content--form > .form--input-column {
+  .container-modal-itens-especificos-informacoes > .form--input-column {
     display: flex;
     flex-direction: column;
     gap: 10px;
-  }
-  
-  .form--input-row > .input-field {
-    display: flex;
-    flex-direction: column;
-    width: 540px;
-    height: 48px;
   }
 
   
@@ -80,20 +143,7 @@
     padding-left: 5px;
 
   }
-  .input-field-titulo
-  {
-    font-weight: 900;
-    text-wrap: nowrap;
-    width: 72px;
-    height: 24px;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0.015em;
-    text-align: left;
-
-  }
+  
   .formulario-checkin-modal input
   {
     width: 223px;
@@ -136,7 +186,7 @@
 
   @media screen and (max-width:508px)
   {
-    .action-modal-mask 
+    .container-modal 
     {
        
         width: 50vw;
@@ -164,12 +214,12 @@
     padding-left: 50px;
     padding-right: 50px;
   }
-  .content--form
+  .container-modal-itens-especificos-informacoes
   {
     padding-right: 15px;
     padding-left: 15px;
   }
-  .form--input-row
+  .itens-especificos-informacoes
   {
     display: flex;
     flex-direction: column;
@@ -202,7 +252,7 @@
     font-size: 14px;
   }
   
-  }
+  }*/
 
 
 
