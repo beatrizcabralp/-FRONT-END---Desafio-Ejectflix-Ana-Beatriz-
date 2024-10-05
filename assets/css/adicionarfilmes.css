@@ -6,6 +6,14 @@
     margin-top: 25px;
     justify-content: center;
     align-items: center;
+
+  }
+
+  .lista-filmes-header-botao
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .form-wrapper {
@@ -64,3 +72,179 @@
     color: #fff;
     font-size: 20px;
   }
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 0.6rem 1.2rem;
+    background-color: #E3C72DCC;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  #open-modal {
+    background-color: #E3C72DCC;
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  #fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+  }
+  
+  #modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    max-width: 100%;
+    background-color: #fff;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    z-index: 10;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  #fade,
+  #modal {
+    transition: 0.5s;
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    /*border: 1px solid pink;*/
+  }
+  
+  .modal-body p {
+    margin-bottom: 1rem;
+  }
+  
+  #modal.hide,
+  #fade.hide {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  #modal.hide {
+    top: 0;
+  }
+
+  .container-modal-itens-especificos
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*border: 1px solid green;*/
+  }
+
+  .modal-header
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .container-modal-itens-especificos-descricao
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*border: 1px solid green;*/
+    margin-top: 10px;
+  }
+
+  .itens-especificos-informacoes
+  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*border: 1px solid red;*/
+    width: 600px;
+  }
+
+  .input-field-titulo
+  {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-left: 5px solid #E3C72DCC;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .input-field-titulo-2
+  {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-left: 5px solid #E3C72DCC;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+ .hide
+ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+.close-modal
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-adicionar-filme
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao-adiciorfilme-fechar
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-header
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+
+  
+  

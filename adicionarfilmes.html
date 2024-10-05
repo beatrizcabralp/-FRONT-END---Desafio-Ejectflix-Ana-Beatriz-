@@ -33,6 +33,7 @@
                 <li><a href="../index.html">Início</a></li>
                 <li><a href="../categoria.html">Categorias</a></li>
                 <li><a href="../adicionarfilmes.html">Adicionar Filmes</a></li>
+                <li><a href="../login.html">Sair</a></li>
             </ul>
 
         </nav>
@@ -43,6 +44,56 @@
 
     <main>
 
+          <section class="lista-filmes-header-botao">
+            <button id="open-modal">Adicionar filmes</button>
+    <div id="fade" class="hide"></div>
+    <div id="modal" class="hide">
+        <div class="modal-header">
+            <div class="titulo-adicionar-filme">
+                <h2>Adicione um filme:</h2>
+            </div>
+            <div class="botao-adiciorfilme-fechar">
+                <button id="close-modal">Fechar</button>
+            </div>
+        </div>
+        <div class="container-modal-itens-especificos">
+         <div class="container-modal-itens-especificos-informacoes">
+             <div class="itens-especificos-informacoes">
+                <div class="informacoes-nome-e-categoria">
+                    <form>
+                       <p class="input-field-titulo"><strong>Nome do filme para o banner:</strong></p>
+                       <input class="blocos-do-modal">
+                    </form>
+                    <form>
+                        <p class="input-field-titulo"><strong>URL da imagem:</strong></p>
+                        <input class="blocos-do-modal">
+                    </form>
+                     
+                     <form>
+                         <p class="input-field-titulo-2"><strong>Nome do filme para o modal:</strong></p>
+                         <input class="blocos-do-modal">
+                     </form>
+                </div>
+                <div class="informacoes-nome-e-categoria">
+                     <form>
+                         <p class="input-field-titulo"><strong>Categoria:</strong></p>
+                         <input class="blocos-do-modal">
+                      </form>
+                      <form>
+                         <p class="input-field-titulo-2"><strong>Ano de estreia:</strong></p>
+                         <input class="blocos-do-modal">
+                      </form>
+                 </div>
+             </div>
+         </div>
+         <div>
+            <button class="botao-editar">Adicionar filme</button>
+         </div>
+      </div>
+    </div>
+
+
+          </section>
         <section id="listaFilmes">
             <div class="secao-filme">
                 <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
@@ -100,6 +151,56 @@
                 <img src="https://img.elo7.com.br/product/zoom/2657658/big-poster-harry-potter-e-as-reliquias-da-morte-lo04-90x60-poster-cinema.jpg" alt="" class="filme-imagem">
                 <p class="filme-titulo">Harry Potter e as Reliquias da Morte Parte 2, 2011.</p>
            </div>
+           <div class="secao-filme">
+                <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                <img src="assets/img/carros.webp" alt="" class="filme-imagem">
+                <p class="filme-titulo">Carros, 2006.</p>
+           </div>
+           <div class="secao-filme">
+                <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                <img src="assets/img/enrolados.webp" alt="" class="filme-imagem">
+                <p class="filme-titulo">Enrolados, 2010.</p>
+           </div>
+           <div class="secao-filme">
+                <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                <img src="assets/img/frozen1.webp" alt="" class="filme-imagem">
+                <p class="filme-titulo">Frozen, 2012.</p>
+           </div>
+           <div class="secao-filme">
+                <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                <img src="assets/img/frozen2.jpeg" alt="" class="filme-imagem">
+                <p class="filme-titulo">Frozen 2, 2019.</p>
+           </div>
+           <div class="secao-filme">
+                <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                <img src="assets/img/oreileao1.webp" alt="" class="filme-imagem">
+                <p class="filme-titulo">O Rei Leão, 1994.</p>
+           </div>
+           <div class="secao-filme">
+                <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                <img src="assets/img/oreileao2.webp" alt="" class="filme-imagem">
+                <p class="filme-titulo">O Rei Leão, 1998.</p>
+           </div>
+           <div class="secao-filme">
+                <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                <img src="assets/img/oreileao3.webp" alt="" class="filme-imagem">
+                <p class="filme-titulo">O Rei Leão, 2004.</p>
+           </div>
+           <div class="secao-filme">
+                <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                <img src="assets/img/procurandonemo.webp" alt="" class="filme-imagem">
+                <p class="filme-titulo">Procurando Nemo, 2003.</p>
+           </div>
+           <div class="secao-filme">
+                <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                <img src="assets/img/toystory.jpg" alt="" class="filme-imagem">
+                <p class="filme-titulo">Toy Story, 1995.</p>
+           </div>
+           <div class="secao-filme">
+                <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                <img src="assets/img/zootopia.jpeg" alt="" class="filme-imagem">
+                <p class="filme-titulo">Zootopia, 2016.</p>
+           </div>
         </section>
 
     </main>
@@ -109,6 +210,8 @@
         <div class="container-itens-footer"><p>Made by Luiza Barbosa | Letícia Cibele</p></div>
 
     </footer>
+
+    <script src="assets/js/modaladicionarfilmes.js"></script>
 
 
 </body>

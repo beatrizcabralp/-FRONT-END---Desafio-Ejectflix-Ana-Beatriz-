@@ -125,7 +125,6 @@
     max-width: 354px;
     width: 90%;
     height: 49px;
-
 }
 
 
@@ -141,5 +140,13 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin-bottom: 40px;
+}
 
+.voltar-ao-login
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -22,7 +22,7 @@
     min-width: 400px;
     max-width: 1024px;
     width: 100%;
-    border: 10px solid black;
+    border: 10px solid #E3C72DCC;
     height: fit-content;
     padding: 20px 50px 50px;
     
@@ -122,6 +122,8 @@
     justify-content: left;
     align-items: center;
     border-radius: 5px;
+    border-left: 5px solid #E3C72DCC;
+    margin-bottom: 10px;
   }
 
   .input-field-titulo-2
@@ -131,6 +133,8 @@
     justify-content: left;
     align-items: center;
     border-radius: 5px;
+    border-left: 5px solid #E3C72DCC;
+    margin-bottom: 10px;
   }
 
   .filme-imagem
