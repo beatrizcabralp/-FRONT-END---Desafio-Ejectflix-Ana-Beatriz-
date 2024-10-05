@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="../assets/css/navbar.css">
         <link rel="stylesheet" href="../assets/css/cadastroelogin.css">
         <link rel="stylesheet" href="../assets/css/carrossel.css">
+        <link rel="stylesheet" href="../assets/css/modal.css">
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
@@ -24,7 +25,7 @@
 
 </html>
 
-<body class="planodefundo">
+<body class="planodefundo-categoria">
 
     <header class="inicio-da-header">
 
@@ -48,40 +49,372 @@
 
         <section class="container-carrossel">
 
+             <!-------------------------------------------------CARROSSEL 1--------------------------------------------------------------->
+
             <div class="titulo-do-genero-do-filme">
 
                   <h2>Disney</h2>
 
             </div>
 
+
             <div class="container-itens-carrossel">
 
                 <button id="prev-slide-1" class="slide-button material-symbols-outlined">chevron_left</button>
 
                 <div class="listaDeImagensDoCarrossel">
+                <!--------------------------------------MODAL ENROLADOS--------------------------------------------------------->
+                    <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                        <img src="assets/img/enrolados.webp" alt="" onclick="openModal('modalImage13')" class="filme-imagem">
+                        <p class="filme-titulo-categoria">Enrolados</p>
+                        <div class="container-modal" id="modalImage13">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage13')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="assets/img/enrolados.webp" alt="" class="filme-imagem">
+                                              <p>Enrolados</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Enrolados</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Disney</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2010</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                     </div>
 
-                    <img src="https://img.elo7.com.br/product/zoom/2692755/poster-o-senhor-dos-aneis-a-sociedade-do-anel-lo05-90x60-cm-geek.jpg" alt="" class="filme-imagem">
+                     <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                        <img src="assets/img/frozen1.webp" alt="" onclick="openModal('modalImage14')" class="filme-imagem">
+                        <p class="filme-titulo-categoria">Frozen: Uma aventura congelante</p>
+                        <div class="container-modal" id="modalImage14">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage14')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="assets/img/frozen1.webp" alt="" class="filme-imagem">
+                                              <p>Frozen: Uma aventura congelante</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Frozen 1</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Disney</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2013</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                     </div>
+                      <!----------------------------------------MODAL FROZEN 2----------------------------------------------->
+                     <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                        <img src="assets/img/frozen2.jpeg" alt="" onclick="openModal('modalImage15')" class="filme-imagem">
+                        <p class="filme-titulo-categoria">Frozen 2</p>
+                        <div class="container-modal" id="modalImage15">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage15')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="assets/img/frozen2.jpeg" alt="" class="filme-imagem">
+                                              <p>Frozen 2</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Frozen 2</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Disney</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2019</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                     </div>
+                     <!-----------------------------O REI LEÃO 1---------------------------------------->
+                     <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                        <img src="assets/img/oreileao1.webp" alt="" onclick="openModal('modalImage18')" class="filme-imagem">
+                        <p class="filme-titulo-categoria">O Rei Leão</p>
+                        <div class="container-modal" id="modalImage18">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage18')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="assets/img/oreileao1.webp" alt="" class="filme-imagem">
+                                              <p>O Rei Leão</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">O Rei Leão</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Disney</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">1994</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                     </div>
+                     <!--------------------------------------O REI LEÃO 2-------------------------------------------->
+                     <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                        <img src="assets/img/oreileao2.webp" alt="" onclick="openModal('modalImage19')" class="filme-imagem">
+                        <p class="filme-titulo-categoria">O Rei Leão 2: O Reino de Simba</p>
+                        <div class="container-modal" id="modalImage19">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage19')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="assets/img/oreileao2.webp" alt="" class="filme-imagem">
+                                              <p>O Rei Leão 2: O Reino de Simba</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">O Rei Leão 2: O Reino de Simba</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Disney</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">1998</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                     </div>
+                     <!--------------------------------------O REI LEÃO 3-------------------------------------------->
+                     <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                        <img src="assets/img/oreileao3.webp" alt="" onclick="openModal('modalImage20')" class="filme-imagem">
+                        <p class="filme-titulo-categoria">O Rei Leão 3: Hakuna Matata</p>
+                        <div class="container-modal" id="modalImage20">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage20')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="assets/img/oreileao3.webp" alt="" class="filme-imagem">
+                                              <p>O Rei Leão 3: Hakuna Matata</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">O Rei Leão 3: Hakuna Matata</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Disney</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">1998</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                     </div>
+                     <!--------------------------------------ZOOTOPIA----------------------------------------------->
+                     <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                        <img src="assets/img/zootopia.jpeg" alt="" onclick="openModal('modalImage16')" class="filme-imagem">
+                        <p class="filme-titulo-categoria">Zootopia: Essa cidade é o bicho</p>
+                        <div class="container-modal" id="modalImage16">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage16')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="assets/img/zootopia.jpeg" alt="" class="filme-imagem">
+                                              <p>Zootopia: Essa cidade é o bicho</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Zootopia: Essa cidade é o bicho</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Disney</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2016</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                     </div>
+                     <!--------------------------------------CARROS----------------------------------------------->
+                     <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                        <img src="assets/img/carros.webp" alt="" onclick="openModal('modalImage12')" class="filme-imagem">
+                        <p class="filme-titulo-categoria">Carros</p>
+                        <div class="container-modal" id="modalImage12">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage12')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="assets/img/carros.webp" alt="" class="filme-imagem">
+                                              <p>Carros</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Carros</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Disney</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2006</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                   </div>
+                     <!--------------------------------------TOY STORY----------------------------------------------->
+                     <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                        <img src="assets/img/toystory.jpg" alt="" onclick="openModal('modalImage17')" class="filme-imagem">
+                        <p class="filme-titulo-categoria">Toy Story</p>
+                        <div class="container-modal" id="modalImage17">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage17')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="assets/img/toystory.jpg" alt="" class="filme-imagem">
+                                              <p>Toy Story</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Toy Story</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Disney</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">1995</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                     </div>
+                     <!------------------------------------PROCURANDO NEMO------------------------------------------>
+                     <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                        <img src="assets/img/procurandonemo.webp" alt="" onclick="openModal('modalImage21')" class="filme-imagem">
+                        <p class="filme-titulo-categoria">Procurando Nemo</p>
+                        <div class="container-modal" id="modalImage21">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage21')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="assets/img/procurandonemo.webp" alt="" class="filme-imagem">
+                                              <p>Procurando Nemo</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Procurando Nemo</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Disney</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2003</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                     </div>
+
                     
-
-                    <img src="https://img.elo7.com.br/product/zoom/26927C9/poster-o-senhor-dos-aneis-as-duas-torres-lo01-tam-90x60-cm-presente-geek.jpg" alt="" class="filme-imagem">
-
-                    <img src="https://img.elo7.com.br/product/main/2692979/big-poster-o-senhor-dos-aneis-o-retorno-do-rei-lo11-90x60-cm-poster-de-filme.jpg" alt="" class="filme-imagem">
-
-                    <img src="https://img.elo7.com.br/product/zoom/24B46D2/poster-papel-de-parede-harry-potter-250-cm-x-400-cm-posteres.jpg" alt="" class="filme-imagem">
-
-                    <img src="https://img.elo7.com.br/product/zoom/24B26AA/quadro-poster-harry-potter-250-cm-x-400-cm-quadro.jpg" alt="" class="filme-imagem">
-
-                    <img src="https://img.elo7.com.br/product/main/2657A05/big-poster-harry-potter-e-o-prisioneiro-de-azkaban-lo2-90x60-geek.jpg" alt="" class="filme-imagem">
-
-                    <img src="https://img.elo7.com.br/product/main/265774E/big-poster-harry-potter-e-o-calice-de-fogo-lo02-90x60-cm-geek.jpg" alt="" class="filme-imagem">
-
-                    <img src="https://img.elo7.com.br/product/main/26579A7/big-poster-harry-potter-e-a-ordem-da-fenix-lo03-tam-90x60-cm-geek.jpg" alt="" class="filme-imagem">
-
-                    <img src="https://img.elo7.com.br/product/zoom/2657947/big-poster-harry-potter-e-o-enigma-do-principe-lo08-90x60-cm-presente-nerd.jpg" alt="" class="filme-imagem">
-
-                    <img src="https://image.tmdb.org/t/p/w500/67FVFOTaeBUQnimhCWpUkDawDct.jpg" alt="" class="filme-imagem">
-
-                    <img src="https://img.elo7.com.br/product/zoom/2657658/big-poster-harry-potter-e-as-reliquias-da-morte-lo04-90x60-poster-cinema.jpg" alt="" class="filme-imagem">
 
 
                 </div>
@@ -93,7 +426,7 @@
         </section> 
 
         <!-------------------------------------------------CARROSSEL 2------------------------------------------------------------------>
-
+       <!----
         <section class="container-carrossel">
 
             <div class="titulo-do-genero-do-filme">
@@ -139,10 +472,10 @@
 
             </div>
 
-        </section>
+        </section>-->
 
         <!-------------------------------------------------CARROSSEL 3------------------------------------------------------------------>
-
+         <!----
         <section class="container-carrossel">
 
             <div class="titulo-do-genero-do-filme">
@@ -187,10 +520,10 @@
 
             </div>
 
-        </section>
+        </section>-->
 
         <!-----------------------------------------------------CARROSSEL 4------------------------------------------------------------------------>
-
+         <!----
         <section class="container-carrossel">
 
             <div class="titulo-do-genero-do-filme">
@@ -236,7 +569,7 @@
 
             </div>
 
-        </section>
+        </section>-->
 
         <!---------------------------------------------CARROSSEL 5 ------------------------------------------------------------------------------->
 
@@ -254,28 +587,407 @@
 
                 <div class="listaDeImagensDoCarrossel">
 
-                    <img src="https://img.elo7.com.br/product/zoom/2692755/poster-o-senhor-dos-aneis-a-sociedade-do-anel-lo05-90x60-cm-geek.jpg" alt="" class="filme-imagem">
-                    
+                    <!--------------------------------O SENHOR DOS ANEIS: A SOCIEDADE DO ANEL--------------------------------->
 
-                    <img src="https://img.elo7.com.br/product/zoom/26927C9/poster-o-senhor-dos-aneis-as-duas-torres-lo01-tam-90x60-cm-presente-geek.jpg" alt="" class="filme-imagem">
+                    <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                        <img src="https://img.elo7.com.br/product/zoom/2692755/poster-o-senhor-dos-aneis-a-sociedade-do-anel-lo05-90x60-cm-geek.jpg" alt="" onclick="openModal('modalImage')" class="filme-imagem">
+                        <p class="filme-titulo-categoria">Senhor dos anéis: A sociedade do anel, 2001.</p>
+                        <ion-icon name="search-outline"></ion-icon>
+                        <div class="container-modal" id="modalImage">
+                             <div class="container-modal-itens">
+                                     <div class="container-modal-itens-header">
+                                          <span class="material-symbols-outlined" onclick="closeModal('modalImage')">
+                                               x
+                                           </span>
+                                      </div>
+                                  <div class="container-modal-itens-especificos">
+                                         <div class="container-modal-itens-especificos-descricao">
+                                               <img src="https://img.elo7.com.br/product/zoom/2692755/poster-o-senhor-dos-aneis-a-sociedade-do-anel-lo05-90x60-cm-geek.jpg" alt="" class="filme-imagem">
+                                               <p>Senhor dos anéis: A sociedade do anel, 2001.</p>
+                                         </div>
+                                      <div class="container-modal-itens-especificos-informacoes">
+                                          <div class="itens-especificos-informacoes">
+                                              <div class="informacoes-nome-e-categoria">
+                                                   <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                   <label class="itens-label">Senhor dos anéis: A sociedade do anel</label>
+                                                   <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                   <label class="itens-label">Fantasia</label>
+                                              </div>
+                                              <div class="informacoes-nome-e-categoria">
+                                                   <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                    <label class="itens-label">2001</label>
+                                               </div>
+                                          </div>
+                                      </div>
+                                   </div>
+                              </div>
+                          </div>   
+                    </div>
 
-                    <img src="https://img.elo7.com.br/product/main/2692979/big-poster-o-senhor-dos-aneis-o-retorno-do-rei-lo11-90x60-cm-poster-de-filme.jpg" alt="" class="filme-imagem">
+                    <!--------------------------------MODAL O SENHOR DOS ANEIS: AS DUAS TORRES------------------------------------------------->
 
-                    <img src="https://img.elo7.com.br/product/zoom/24B46D2/poster-papel-de-parede-harry-potter-250-cm-x-400-cm-posteres.jpg" alt="" class="filme-imagem">
+                    <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                         <img src="https://img.elo7.com.br/product/zoom/26927C9/poster-o-senhor-dos-aneis-as-duas-torres-lo01-tam-90x60-cm-presente-geek.jpg" alt="" onclick="openModal('modalImage2')" class="filme-imagem">
+                         <p class="filme-titulo-categoria">Senhor dos anéis: As duas torres, 2002.</p>
+                        <div class="container-modal" id="modalImage2">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage2')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="https://img.elo7.com.br/product/zoom/26927C9/poster-o-senhor-dos-aneis-as-duas-torres-lo01-tam-90x60-cm-presente-geek.jpg" alt=""class="filme-imagem">
+        
+                                              <p>Senhor dos anéis: As duas torres, 2002.</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Senhor dos anéis: As duas torres</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Fantasia</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2002</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div>   
+                    </div>
+                    <!--------------------------------MODAL O SENHOR DOS ANEIS: O RETORNO DO REI------------------------------------------------->
+                    <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                         <img src="https://img.elo7.com.br/product/main/2692979/big-poster-o-senhor-dos-aneis-o-retorno-do-rei-lo11-90x60-cm-poster-de-filme.jpg" alt="" onclick="openModal('modalImage3')" class="filme-imagem">
+                         <p class="filme-titulo-categoria">Senhor dos anéis: O retorno do rei, 2003.</p>
+                         <div class="container-modal" id="modalImage3">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage3')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="https://img.elo7.com.br/product/main/2692979/big-poster-o-senhor-dos-aneis-o-retorno-do-rei-lo11-90x60-cm-poster-de-filme.jpg" alt="" class="filme-imagem">
+                                              <p>Senhor dos anéis: O retorno do rei, 2003.</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Senhor dos anéis: O retorno do rei</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Fantasia</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2003</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div>  
+                    </div>
+                    <!---------------------------------------MODAL HARRY POTTER E A PEDRA FILOSOFAL--------------------------------------------->
+                    <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                         <img src="https://img.elo7.com.br/product/zoom/24B46D2/poster-papel-de-parede-harry-potter-250-cm-x-400-cm-posteres.jpg" alt="" onclick="openModal('modalImage4')" class="filme-imagem">
+                         <p class="filme-titulo-categoria">Harry Potter e a Pedra Filosofal, 2001.</p>
+                         <div class="container-modal" id="modalImage4">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage4')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="https://img.elo7.com.br/product/zoom/24B46D2/poster-papel-de-parede-harry-potter-250-cm-x-400-cm-posteres.jpg" alt="" class="filme-imagem">
+                                              <p>Harry Potter e a Pedra Filosofal, 2001.</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Harry Potter e a Pedra Filosofal</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Fantasia</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2001</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div>  
+                    </div>
+                    <!---------------------------------------MODAL HARRY POTTER E A CAMARA SECRETA--------------------------------------------->
+                    <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                         <img src="https://img.elo7.com.br/product/zoom/24B26AA/quadro-poster-harry-potter-250-cm-x-400-cm-quadro.jpg" alt="" onclick="openModal('modalImage5')" class="filme-imagem">
+                         <p class="filme-titulo-categoria">Harry Potter e a Câmara Secreta, 2002.</p>
+                         <div class="container-modal" id="modalImage5">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage5')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="https://img.elo7.com.br/product/zoom/24B26AA/quadro-poster-harry-potter-250-cm-x-400-cm-quadro.jpg" alt="" class="filme-imagem">
+                                              <p>Harry Potter e a Câmara Secreta, 2002.</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Harry Potter e a Câmara Secreta</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Fantasia</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2002</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                    </div>
+                    <!-------------------------------------MODAL HARRY POTTER E O PRISIONEIRO DE AZKABAN------------------------------------------->
+                    <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                         <img src="https://img.elo7.com.br/product/main/2657A05/big-poster-harry-potter-e-o-prisioneiro-de-azkaban-lo2-90x60-geek.jpg" alt="" onclick="openModal('modalImage6')" class="filme-imagem">
+                         <p class="filme-titulo-categoria">Harry Potter e o Prisioneiro de Azkaban, 2004.</p>
+                         <div class="container-modal" id="modalImage6">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage6')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="https://img.elo7.com.br/product/main/2657A05/big-poster-harry-potter-e-o-prisioneiro-de-azkaban-lo2-90x60-geek.jpg" alt="" class="filme-imagem">
+                                              <p>Harry Potter e o Prisioneiro de Azkaban, 2004.</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Harry Potter e o Prisioneiro de Azkaban</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Fantasia</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2004</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                    </div>
 
-                    <img src="https://img.elo7.com.br/product/zoom/24B26AA/quadro-poster-harry-potter-250-cm-x-400-cm-quadro.jpg" alt="" class="filme-imagem">
+                    <!-------------------------------------MODAL HARRY POTTER E O CÁLICE DE FOGO-------------------------------------------->
 
-                    <img src="https://img.elo7.com.br/product/main/2657A05/big-poster-harry-potter-e-o-prisioneiro-de-azkaban-lo2-90x60-geek.jpg" alt="" class="filme-imagem">
+                    <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                         <img src="https://img.elo7.com.br/product/main/265774E/big-poster-harry-potter-e-o-calice-de-fogo-lo02-90x60-cm-geek.jpg" alt="" onclick="openModal('modalImage7')"  class="filme-imagem">
+                         <p class="filme-titulo-categoria">Harry Potter e o Cálice de fogo, 2005.</p>
+                         <div class="container-modal" id="modalImage7">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage7')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="https://img.elo7.com.br/product/main/265774E/big-poster-harry-potter-e-o-calice-de-fogo-lo02-90x60-cm-geek.jpg" alt="" class="filme-imagem">
+                                              <p>Harry Potter e o Cálice de fogo, 2005.</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Harry Potter e o Cálice de fogo</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Fantasia</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2005</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                    </div>
 
-                    <img src="https://img.elo7.com.br/product/main/265774E/big-poster-harry-potter-e-o-calice-de-fogo-lo02-90x60-cm-geek.jpg" alt="" class="filme-imagem">
+                    <!-------------------------------------MODAL HARRY POTTER E A ORDEM DA FÊNIX-------------------------------------------->
 
-                    <img src="https://img.elo7.com.br/product/main/26579A7/big-poster-harry-potter-e-a-ordem-da-fenix-lo03-tam-90x60-cm-geek.jpg" alt="" class="filme-imagem">
+                    <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                         <img src="https://img.elo7.com.br/product/main/26579A7/big-poster-harry-potter-e-a-ordem-da-fenix-lo03-tam-90x60-cm-geek.jpg" alt="" onclick="openModal('modalImage8')" class="filme-imagem">
+                         <p class="filme-titulo-categoria">Harry Potter e a Orden da fênix, 2007.</p>
+                         <div class="container-modal" id="modalImage8">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage8')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="https://img.elo7.com.br/product/main/26579A7/big-poster-harry-potter-e-a-ordem-da-fenix-lo03-tam-90x60-cm-geek.jpg" alt="" class="filme-imagem">
+                                              <p>Harry Potter e a Orden da fênix, 2007.</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Harry Potter e a Orden da fênix</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Fantasia</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2007</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                    </div>
 
-                    <img src="https://img.elo7.com.br/product/zoom/2657947/big-poster-harry-potter-e-o-enigma-do-principe-lo08-90x60-cm-presente-nerd.jpg" alt="" class="filme-imagem">
+                    <!-------------------------------------MODAL HARRY POTTER E O ENIGMA DO PRINCIPE----------------------------------------->
 
-                    <img src="https://image.tmdb.org/t/p/w500/67FVFOTaeBUQnimhCWpUkDawDct.jpg" alt="" class="filme-imagem">
+                    <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                         <img src="https://img.elo7.com.br/product/zoom/2657947/big-poster-harry-potter-e-o-enigma-do-principe-lo08-90x60-cm-presente-nerd.jpg" alt="" onclick="openModal('modalImage9')" class="filme-imagem">
+                         <p class="filme-titulo-categoria">Harry Potter e o Enigma do Principe, 2009.</p>
+                         <div class="container-modal" id="modalImage9">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage9')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="https://img.elo7.com.br/product/zoom/2657947/big-poster-harry-potter-e-o-enigma-do-principe-lo08-90x60-cm-presente-nerd.jpg" alt="" class="filme-imagem">
+                                              <p>Harry Potter e o Enigma do Principe</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Harry Potter e a Orden da fênix</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Fantasia</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2009</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                    </div>
 
-                    <img src="https://img.elo7.com.br/product/zoom/2657658/big-poster-harry-potter-e-as-reliquias-da-morte-lo04-90x60-poster-cinema.jpg" alt="" class="filme-imagem">
+                     <!----------------------------MODAL HARRY POTTER E AS RELÍQUIAS DA MORTE: PARTE 1---------------------------------------->
+
+                     <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                         <img src="https://image.tmdb.org/t/p/w500/67FVFOTaeBUQnimhCWpUkDawDct.jpg" alt="" onclick="openModal('modalImage10')" class="filme-imagem">
+                         <p class="filme-titulo-categoria">Harry Potter e as Reliquias da Morte Parte 1, 2010.</p>
+                         <div class="container-modal" id="modalImage10">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage10')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="https://image.tmdb.org/t/p/w500/67FVFOTaeBUQnimhCWpUkDawDct.jpg" alt="" class="filme-imagem">
+                                              <p>Harry Potter e as Reliquias da Morte Parte 1</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Harry Potter e as Reliquias da Morte Parte 1</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Fantasia</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2010</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                    </div>
+
+                     <!---------------------------MODAL HARRY POTTER E AS RELÍQUIAS DA MORTE: PARTE 2----------------------------------->
+
+                     <div class="secao-filme-categoria">
+                        <button class="icone-edição"><i class="fa-regular fa-pen-to-square" ></i></button>
+                        <img src="https://img.elo7.com.br/product/zoom/2657658/big-poster-harry-potter-e-as-reliquias-da-morte-lo04-90x60-poster-cinema.jpg" alt="" onclick="openModal('modalImage11')" class="filme-imagem">
+                        <p class="filme-titulo-categoria">Harry Potter e as Reliquias da Morte Parte 2, 2011.</p>
+                        <div class="container-modal" id="modalImage11">
+                            <div class="container-modal-itens">
+                                    <div class="container-modal-itens-header">
+                                         <span class="material-symbols-outlined" onclick="closeModal('modalImage11')">
+                                              x
+                                          </span>
+                                     </div>
+                                 <div class="container-modal-itens-especificos">
+                                        <div class="container-modal-itens-especificos-descricao">
+                                            <img src="https://img.elo7.com.br/product/zoom/2657658/big-poster-harry-potter-e-as-reliquias-da-morte-lo04-90x60-poster-cinema.jpg" alt="" class="filme-imagem">
+                                              <p>Harry Potter e as Reliquias da Morte Parte 2, 2011.</p>
+                                        </div>
+                                     <div class="container-modal-itens-especificos-informacoes">
+                                         <div class="itens-especificos-informacoes">
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="informacoes-nome-e-categoria-titulo"><strong>Nome do filme:</strong></p>
+                                                  <label class="itens-label">Harry Potter e as Reliquias da Morte Parte 2</label>
+                                                  <p class="input-field-titulo-2"><strong>Categoria:</strong></p>
+                                                  <label class="itens-label">Fantasia</label>
+                                             </div>
+                                             <div class="informacoes-nome-e-categoria">
+                                                  <p class="input-nome-e-categoria-ano"><strong>Ano de estreia:</strong></p>
+                                                   <label class="itens-label">2011</label>
+                                              </div>
+                                         </div>
+                                     </div>
+                                  </div>
+                             </div>
+                         </div> 
+                   </div>
+                   <!-------------------------final do modal harry potter e as relíquias da morte parte 2 ---------------------------------->
 
 
                 </div>
@@ -297,6 +1009,7 @@
     </footer>
 
     <script src="assets/js/carrosseis.js"></script>
+    <script src="assets/js/modal.js"></script>
 
 
 </body>
